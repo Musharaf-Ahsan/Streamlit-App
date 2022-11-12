@@ -11,8 +11,7 @@ from sklearn.linear_model import LinearRegression
 html_temp = """
     <div style="background-color:black;padding:10px">
     <h2 style="color:red;text-align:center;">Salary Prediction App</h2>
-    <h2 style="color:red;text-align:center;">BaBa g sb sikhatey hai, Bs Chilla join kro </h2>
-    <p style="color:red;text-align:center;" >This is a <b>Streamlit</b> app use for prediction of the <b>Salary</b>.</p>
+    <p style="color:red;text-align:center;" >This is a <b>Streamlit</b> app to prediction <b>Salary</b>.</p>
     </div>
     """
 st.markdown(html_temp,unsafe_allow_html=True)
