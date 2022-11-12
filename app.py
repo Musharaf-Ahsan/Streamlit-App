@@ -10,8 +10,8 @@ from sklearn.linear_model import LinearRegression
 
 html_temp = """
     <div style="background-color:black;padding:10px">
-    <h2 style="color:red;text-align:center;">Salary Prediction App</h2>
-    <p style="color:red;text-align:center;" >This is a <b>Streamlit</b> app to predict <b>Salary</b>.</p>
+    <h2 style="color:white;text-align:center;">Salary Prediction App</h2>
+    <p style="color:white;text-align:center;" >This is a <b>Streamlit</b> app to predict <b>Salary</b>.</p>
     </div>
     """
 st.markdown(html_temp,unsafe_allow_html=True)
@@ -51,7 +51,7 @@ st.subheader('Final Prediction')
 st.error(prediction[0])
 html_temp1 = """
     <div style="background-color:#f63366">
-    <p style="color:green;text-align:center;" >Made By: <b>Musharaf Ahsan</b> </p>
+    <p style="color:white;text-align:center;" >Made By: <b>Musharaf Ahsan</b> </p>
     </div>
     """
 st.markdown(html_temp1,unsafe_allow_html=True)
